@@ -1,0 +1,20 @@
+/* add a 3-pixel border around windows */
+decoration {
+    border: 5px solid rgba(10, 10, 10, .3);
+    background:rgba(10, 10, 10, .3);
+}
+
+
+/* customize the titlebar for active window */
+.titlebar {
+    background: rgba(10, 10, 10, .3);
+    border-top:solid 1px rgba(10, 10, 10, .3);
+    color:white; 
+}
+
+
+/* customize the titlebar for background windows */
+.titlebar:backdrop  {
+    background: rgba(10, 10, 10, .5);
+    color:white;
+}
