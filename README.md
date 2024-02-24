@@ -1,4 +1,6 @@
 # Timon's Dotfiles
+dotfiles, applications, instructions, scripts
+
 **!!!**
 
 **This repository is not complete yet. Do not try to use the scripts at this point!!**
@@ -10,10 +12,12 @@
 The installation, apps, extensions etc. are tested on Fedora 39.
 
 ## Content
-- dotfiles `dotfiles/.*`
-- list of applications `apps.txt` & install script `apps.sh`
-- dotfiles install script `dots.sh`
-- general install scrtip `install.sh`
+| path | description |
+|-|-|
+| `applications/` | my favorite/needed applications |
+| `dotfiles/`     | dotfiles following home sturcture |
+| `instructions/` | useful instructions (troubleshooting, ...) |
+| `scripts/`      | useful scripts, not installation related |
 
 ## Installation
 Execute `install.sh` & pray :P
