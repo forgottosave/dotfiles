@@ -1,26 +1,27 @@
-# mail client
+# messanger
 thunderbird
-
-# signal messanger
 signal-desktop
 
 # ide
 vs-code
 
-# drawing program
+# drawing
 krita
 
-# mixxx dj-programm
+# music
 mixxx
 
-# useful terminal stuff
-zoxide
+# learning
+anki
 
-# funny terminal stuff
+# terminal stuff
+zoxide
+tty-clock
+cbonsai
 lolcat
 fortune
 sl
 
-# pause-screen for eyes
+# health
 safeeyes
 

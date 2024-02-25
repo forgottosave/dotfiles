@@ -1,20 +1,30 @@
-/* add a 3-pixel border around windows */
+/* __Custom window css__
+ * :backdrop = window in background
+ * .titlebar = top part
+ */
+
+/* general window settings */
 decoration {
-    border: 5px solid rgba(10, 10, 10, .3);
-    background:rgba(10, 10, 10, .3);
+    /*border: 5px solid rgba(10, 10, 10, .3);*/
+    /*background:rgba(10, 10, 10, .3);*/
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
 
+decoration:backdrop {
+  background: rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
 
-/* customize the titlebar for active window */
-.titlebar {
+/* titlebar */
+headerbar.titlebar {
     background: rgba(10, 10, 10, .3);
     border-top:solid 1px rgba(10, 10, 10, .3);
     color:white; 
 }
 
-
-/* customize the titlebar for background windows */
-.titlebar:backdrop  {
+headerbar.titlebar:backdrop  {
     background: rgba(10, 10, 10, .5);
     color:white;
 }
+
